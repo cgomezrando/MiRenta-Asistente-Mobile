@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Documento -->
+  <path
+    d="M24 8h56l24 24v72c0 8.8-7.2 16-16 16H24c-8.8 0-16-7.2-16-16V24C8 15.2 15.2 8 24 8z"
+    fill="#F8F9FF"
+    stroke="#1F4DBA"
+    stroke-width="6"
+    stroke-linejoin="round"/>
+
+  <!-- Esquina doblada -->
+  <path
+    d="M80 8v24h24"
+    fill="none"
+    stroke="#1F4DBA"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <!-- Líneas documento -->
+  <line x1="32" y1="38" x2="62" y2="38"
+        stroke="#1F4DBA"
+        stroke-width="6"
+        stroke-linecap="round"/>
+
+  <line x1="32" y1="60" x2="82" y2="60"
+        stroke="#1F4DBA"
+        stroke-width="6"
+        stroke-linecap="round"/>
+
+  <line x1="32" y1="82" x2="68" y2="82"
+        stroke="#C58B12"
+        stroke-width="6"
+        stroke-linecap="round"/>
+
+  <!-- Círculo check -->
+  <circle
+    cx="92"
+    cy="92"
+    r="28"
+    fill="#D4A12B"/>
+
+  <!-- Check -->
+  <path
+    d="M80 92l8 8 16-18"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+</svg>

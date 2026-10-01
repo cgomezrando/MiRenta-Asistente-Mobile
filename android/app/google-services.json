@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "976371529191",
+    "project_id": "app-declaracion-renta",
+    "storage_bucket": "app-declaracion-renta.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976371529191:android:9e07aef7fb9efcad53b942",
+        "android_client_info": {
+          "package_name": "com.cgr.mirentaasistente"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvFT5HmlwPEIRJR3e5vIXHKC4NbdCaqW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976371529191:android:b126cff2d08becf753b942",
+        "android_client_info": {
+          "package_name": "com.cgr.mirentaasistenteMobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvFT5HmlwPEIRJR3e5vIXHKC4NbdCaqW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
