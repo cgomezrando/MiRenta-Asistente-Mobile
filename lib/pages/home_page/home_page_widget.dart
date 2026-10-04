@@ -595,7 +595,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           5.0, 0.0, 0.0, 0.0),
                                       child: Text(
-                                        'Iniciar el cuestionario declaración 2025',
+                                        'Iniciar cuestionario declaración 2025',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -610,7 +610,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                         .fontStyle,
                                               ),
                                               color: Colors.white,
-                                              fontSize: 14.0,
+                                              fontSize: 15.5,
                                               letterSpacing: 0.0,
                                               fontWeight:
                                                   FlutterFlowTheme.of(context)
@@ -638,7 +638,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       mainAxisAlignment:
-                          (FFMainAxisAlignment.center).flutterValue,
+                          (FFMainAxisAlignment.spaceAround).flutterValue,
                       children: [
                         Align(
                           alignment: AlignmentDirectional(0.0, 0.0),
@@ -677,12 +677,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               safeSetState(() {});
                             },
                             child: Stack(
-                              alignment: AlignmentDirectional(0.0, 0.0),
+                              alignment: AlignmentDirectional(-1.0, 0.0),
                               children: [
                                 Opacity(
                                   opacity: 0.6,
                                   child: Container(
-                                    width: 175.0,
+                                    width: 150.0,
                                     height: 50.0,
                                     decoration: BoxDecoration(
                                       color: Colors.white,
@@ -712,7 +712,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 Row(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment:
-                                      (FFMainAxisAlignment.center).flutterValue,
+                                      (FFMainAxisAlignment.start).flutterValue,
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
                                     Padding(
@@ -721,24 +721,24 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       child: Icon(
                                         Icons.edit_document,
                                         color: Color(0xFF0B2B81),
-                                        size: 30.0,
+                                        size: 35.0,
                                       ),
                                     ),
                                     Align(
                                       alignment: AlignmentDirectional(0.0, 0.0),
                                       child: Container(
-                                        width: 140.0,
+                                        width: 100.0,
                                         height: 50.0,
                                         decoration: BoxDecoration(),
                                         child: Align(
                                           alignment:
-                                              AlignmentDirectional(0.0, 0.0),
+                                              AlignmentDirectional(-1.0, 0.0),
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     5.0, 0.0, 0.0, 0.0),
                                             child: Text(
-                                              'Continuar cuestionario en curso',
+                                              'Continuar \ncuestionario',
                                               textAlign: TextAlign.start,
                                               maxLines: 2,
                                               style:
@@ -758,7 +758,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                   .fontStyle,
                                                         ),
                                                         color: Colors.black,
-                                                        fontSize: 12.0,
+                                                        fontSize: 14.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                             FlutterFlowTheme.of(
@@ -784,10 +784,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Align(
-                          alignment: AlignmentDirectional(0.0, 0.0),
+                          alignment: AlignmentDirectional(-1.0, 0.0),
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
-                                15.0, 0.0, 0.0, 0.0),
+                                25.0, 0.0, 0.0, 0.0),
                             child: InkWell(
                               splashColor: Colors.transparent,
                               focusColor: Colors.transparent,
@@ -799,14 +799,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 );
                               },
                               child: Stack(
-                                alignment: AlignmentDirectional(0.0, 0.0),
+                                alignment: AlignmentDirectional(-1.0, 0.0),
                                 children: [
                                   Opacity(
                                     opacity: 0.6,
                                     child: Align(
                                       alignment: AlignmentDirectional(0.0, 0.0),
                                       child: Container(
-                                        width: 175.0,
+                                        width: 150.0,
                                         height: 50.0,
                                         decoration: BoxDecoration(
                                           color: Colors.white,
@@ -831,16 +831,20 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                             width: 2.0,
                                           ),
                                         ),
+                                        alignment:
+                                            AlignmentDirectional(-1.0, 0.0),
                                       ),
                                     ),
                                   ),
                                   Row(
                                     mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    mainAxisAlignment:
+                                        (FFMainAxisAlignment.start)
+                                            .flutterValue,
                                     children: [
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            5.0, 0.0, 0.0, 0.0),
+                                            10.0, 0.0, 0.0, 0.0),
                                         child: FaIcon(
                                           FontAwesomeIcons.folderOpen,
                                           color: Color(0xFF0B2B81),
@@ -849,19 +853,21 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       ),
                                       Align(
                                         alignment:
-                                            AlignmentDirectional(0.0, 0.0),
+                                            AlignmentDirectional(-1.0, 0.0),
                                         child: Container(
-                                          width: 135.0,
+                                          width: 100.0,
                                           height: 50.0,
                                           decoration: BoxDecoration(),
+                                          alignment:
+                                              AlignmentDirectional(-1.0, 0.0),
                                           child: Align(
                                             alignment:
-                                                AlignmentDirectional(0.0, 0.0),
+                                                AlignmentDirectional(-1.0, 0.0),
                                             child: Padding(
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(5.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                'Cargar cuestionarios anteriores',
+                                                'Cargar \nanteriores',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -880,7 +886,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                     .fontStyle,
                                                           ),
                                                           color: Colors.black,
-                                                          fontSize: 12.0,
+                                                          fontSize: 14.0,
                                                           letterSpacing: 0.0,
                                                           fontWeight:
                                                               FlutterFlowTheme.of(
@@ -930,12 +936,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               );
                             },
                             child: Stack(
-                              alignment: AlignmentDirectional(0.0, 0.0),
+                              alignment: AlignmentDirectional(-1.0, 0.0),
                               children: [
                                 Opacity(
                                   opacity: 0.6,
                                   child: Container(
-                                    width: 175.0,
+                                    width: 150.0,
                                     height: 50.0,
                                     decoration: BoxDecoration(
                                       color: Colors.white,
@@ -966,16 +972,20 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
-                                    Icon(
-                                      Icons.help_outline,
-                                      color: Color(0xFF0B2B81),
-                                      size: 30.0,
+                                    Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          5.0, 0.0, 0.0, 0.0),
+                                      child: Icon(
+                                        Icons.help_outline,
+                                        color: Color(0xFF0B2B81),
+                                        size: 35.0,
+                                      ),
                                     ),
                                     Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           5.0, 0.0, 0.0, 0.0),
                                       child: Text(
-                                        'Ayuda e Información',
+                                        'Ayuda e \nInformación',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -990,7 +1000,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                         .fontStyle,
                                               ),
                                               color: Colors.black,
-                                              fontSize: 12.0,
+                                              fontSize: 14.0,
                                               letterSpacing: 0.0,
                                               fontWeight:
                                                   FlutterFlowTheme.of(context)
@@ -1013,7 +1023,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
-                                15.0, 0.0, 0.0, 0.0),
+                                25.0, 0.0, 0.0, 0.0),
                             child: InkWell(
                               splashColor: Colors.transparent,
                               focusColor: Colors.transparent,
@@ -1045,14 +1055,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 safeSetState(() {});
                               },
                               child: Stack(
-                                alignment: AlignmentDirectional(0.0, 0.0),
+                                alignment: AlignmentDirectional(-1.0, 0.0),
                                 children: [
                                   Opacity(
                                     opacity: 0.6,
                                     child: Align(
                                       alignment: AlignmentDirectional(0.0, 0.0),
                                       child: Container(
-                                        width: 175.0,
+                                        width: 150.0,
                                         height: 50.0,
                                         decoration: BoxDecoration(
                                           color: Colors.white,
@@ -1088,16 +1098,20 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         (FFMainAxisAlignment.center)
                                             .flutterValue,
                                     children: [
-                                      Icon(
-                                        Icons.person,
-                                        color: Color(0xFF0B2B81),
-                                        size: 30.0,
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            5.0, 0.0, 0.0, 0.0),
+                                        child: Icon(
+                                          Icons.person,
+                                          color: Color(0xFF0B2B81),
+                                          size: 35.0,
+                                        ),
                                       ),
                                       Align(
                                         alignment:
                                             AlignmentDirectional(-1.0, 0.0),
                                         child: Container(
-                                          width: 125.0,
+                                          width: 100.0,
                                           height: 50.0,
                                           decoration: BoxDecoration(),
                                           child: Align(
@@ -1126,7 +1140,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                     .fontStyle,
                                                           ),
                                                           color: Colors.black,
-                                                          fontSize: 12.0,
+                                                          fontSize: 14.0,
                                                           letterSpacing: 0.0,
                                                           fontWeight:
                                                               FlutterFlowTheme.of(
