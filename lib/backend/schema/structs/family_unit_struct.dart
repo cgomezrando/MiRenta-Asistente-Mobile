@@ -199,9 +199,9 @@ class FamilyUnitStruct extends BaseStruct {
         year,
         autonomousCommunity,
         declarationType,
-        declarantA,
-        declarantB,
-        children
+        const ListEquality().hash(declarantA),
+        const ListEquality().hash(declarantB),
+        const ListEquality().hash(children)
       ]);
 }
 

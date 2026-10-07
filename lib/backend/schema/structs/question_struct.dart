@@ -369,7 +369,7 @@ class QuestionStruct extends BaseStruct {
         shortHelp,
         icon,
         controlType,
-        options,
+        const ListEquality().hash(options),
         savesTo,
         required,
         min,

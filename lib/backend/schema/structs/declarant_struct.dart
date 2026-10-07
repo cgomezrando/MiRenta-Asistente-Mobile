@@ -206,7 +206,7 @@ class DeclarantStruct extends BaseStruct {
         ownDisabilityDegree,
         payerCount,
         unionFee,
-        payer
+        const ListEquality().hash(payer)
       ]);
 }
 

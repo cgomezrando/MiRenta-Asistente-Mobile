@@ -846,7 +846,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             10.0, 0.0, 0.0, 0.0),
                                         child: FaIcon(
-                                          FontAwesomeIcons.folderOpen,
+                                          FaIconData(
+                                              FontAwesomeIcons.folderOpen.data),
                                           color: Color(0xFF0B2B81),
                                           size: 30.0,
                                         ),
